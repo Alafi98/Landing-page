@@ -49,3 +49,9 @@
         font-size: 11px;
     }
 }
+
+@media screen and (max-width: 430px ) {
+    .main-fotos{
+        grid-template-columns: repeat(auto-fill, 85px);
+    }
+}
